@@ -1,5 +1,5 @@
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin()
 
 " Appearance
 Plug 'ayu-theme/ayu-vim'
@@ -19,7 +19,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tweekmonster/startuptime.vim'
 Plug 'Yggdroot/indentLine'
-Plug '~/.fzf'
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
 " Completion / linters / formatters
@@ -30,8 +30,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 
 call plug#end()
-
-let mapleader = ' '
 
 runtime ./coc.vim
 

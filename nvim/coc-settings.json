@@ -27,5 +27,6 @@
     "eslint.autoFixOnSave": true,
     "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
     "clangd.path": "/usr/bin/clangd",
-    "clangd.semanticHighlighting": true
+    "clangd.semanticHighlighting": true,
+    "tsserver.disableAutomaticTypeAcquisition": false
 }

@@ -1,6 +1,6 @@
 " Fundamentals "{{{
 " ---------------------------------------------------------------------
-let g:python_host_prog = '/usr/bin/python'
+"let g:python_host_prog = '/usr/bin/python'
 let g:python3_host_prog = '/usr/bin/python3'
 
 runtime! macros/matchit.vim
@@ -80,6 +80,8 @@ set wildmenu
 " Italics
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
+
+let mapleader = ' '
 
 runtime ./common_aucmd.vim
 

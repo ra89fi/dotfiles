@@ -1,6 +1,6 @@
 " let g:user_emmet_install_global = 0
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin()
     Plug 'ap/vim-css-color', { 'for': ['css', 'scss'] }
     Plug 'MaxMEllon/vim-jsx-pretty', { 'for': ['js', 'jsx'] }
     Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }

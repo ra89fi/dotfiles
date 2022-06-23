@@ -67,6 +67,7 @@ nnoremap <leader>mt :only<CR>
 " fzf mappings
 " Most commands support CTRL-T / CTRL-X / CTRL-V key bindings to open in a new tab, a new split, or in a new vertical split
 nnoremap ff :Files<CR>
+nnoremap fg :GFiles<CR>
 nnoremap <leader>ag :Ag<CR>
 nnoremap <C-b> :b<space>
 " nnoremap <leader>gfi :GFiles<CR>

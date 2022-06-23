@@ -1,2 +1,2 @@
 runtime ./common_init.vim
-runtime ./custom.vim
+"runtime ./custom.vim
