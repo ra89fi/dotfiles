@@ -1,0 +1,31 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "sass",
+        "scss",
+        "markdown",
+        "html",
+        "json",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "c",
+        "cpp",
+        "h",
+        "hpp",
+        "cmake"
+    ],
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.disableSuccessMessage": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    "codeLens.enable": false,
+    "diagnostic.checkCurrentLine": true,
+    "typescript.suggestionActions.enabled": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "clangd.path": "/usr/bin/clangd",
+    "clangd.semanticHighlighting": true
+}
