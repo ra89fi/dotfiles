@@ -1,0 +1,27 @@
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export FZF_DEFAULT_OPS="--extended"
+export FZF_DEFAULT_COMMAND='fdfind --type file'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+if [ -f ~/z/z.sh ]; then
+    . ~/z/z.sh
+fi
+
+if [ -f ~/.exa.bash ]; then
+    . ~/.exa.bash
+fi
+
+export PATH="$(npm config get prefix)/bin:$PATH"
+export PATH="/opt/jdk-11.0.2/bin:$PATH"
+export JAVA_HOME="/opt/jdk-11.0.2/"
+
+powerline-daemon -q
+export POWERLINE_BASH_CONTINUATION=1
+export POWERLINE_BASH_SELECT=1
+. /home/raihan/.local/lib/python3.9/site-packages/powerline/bindings/bash/powerline.sh
+
+source "$HOME/gruvbox_256palette.sh"
+
+export VIMRUNTIME="/usr/local/share/nvim/runtime"
+
+# . /home/raihan/bin/xmod.sh

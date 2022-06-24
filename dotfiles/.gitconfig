@@ -1,0 +1,7 @@
+[user]
+	name = raihan
+	email = 5421449+ra89fi@users.noreply.github.com
+[credential]
+	helper = cache
+[init]
+	defaultBranch = main

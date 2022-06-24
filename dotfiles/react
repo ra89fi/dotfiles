@@ -1,0 +1,13 @@
+tmux has-session -t react
+if [ $? != 0 ]
+then
+    tmux new-session -s react -n editor -d
+    tmux send-keys -t react 'cd /media/raihan/data/pherob5/manufacturer-website-client-side-ra89fi' C-m
+    tmux send-keys -t react 'vi' C-m
+    tmux split-window -h -p 25 -t react
+    tmux send-keys -t react:0.1 'cd /media/raihan/data/pherob5/manufacturer-website-client-side-ra89fi' C-m
+    tmux new-window -n console -t react
+    tmux send-keys -t react:1 'cd /media/raihan/data/pherob5/manufacturer-website-client-side-ra89fi' C-m
+    tmux select-window -t react:0.0
+fi
+tmux attach -t react

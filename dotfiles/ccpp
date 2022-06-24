@@ -1,0 +1,12 @@
+tmux has-session -t ccpp
+if [ $? != 0 ]
+then
+    tmux new-session -s ccpp -n editor -d
+    tmux send-keys -t ccpp 'cd /media/raihan/data/develop/ccpp/cherno' C-m
+    tmux send-keys -t ccpp 'vi' C-m
+    tmux split-window -h -p 25 -t ccpp
+    tmux send-keys -t ccpp:0.1 'cd /media/raihan/data/develop/ccpp/cherno' C-m
+    tmux send-keys -t ccpp:0.1 'Debug/cherno' C-m
+    tmux select-window -t ccpp:0.0
+fi
+tmux attach -t ccpp

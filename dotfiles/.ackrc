@@ -1,0 +1,11 @@
+## Ack is awesome: https://beyondgrep.com/
+#
+--smart-case
+# folders I usually do not want to look into
+--ignore-dir=.next
+--ignore-dir=_site
+--ignore-dir=build
+--ignore-dir=node_modules
+--ignore-dir=dist
+# files I usually ignore
+--ignore-file=match:/bundle/
